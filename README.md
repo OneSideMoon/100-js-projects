@@ -14,10 +14,11 @@ Welcome to the **100 JavaScript Projects** repository! This repository is a coll
 ## Projects
 
 - **[Project 1: Tip Calculator](https://github.com/OneSideMoon/100-js-projects/tree/main/tip-calculator)**
+    <br>
     <img src="./preview/tip-calculator.png" style="width: 50%">
     - **Description:** This Tip Calculator project allows users to input their total bill amount and select a tip percentage to calculate both the tip amount and the final total. It's a simple tool demonstrating basic HTML, CSS, and JavaScript functionality. [Source](https://www.youtube.com/watch?v=AOCGM82uVFk&list=PLs7ELP0wqJomtWYbW0N7NYC2VIMg_fAi_&index=1).
     - **Technologies Used:** HTML, CSS, JS
-    - **Preview:** <iframe width="50%" height="auto" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    - **Preview:** You can view the demo video [here](https://drive.google.com/file/d/1d0oPEbIReuW9dLzs6O-lHDPA2LRyKzlF/view?usp=drive_link).
 
 
 ## Contributing
