@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color palette */
+:root {
+    --dark-blue: #5680E9;
+    --light-blue: #84CEEB;
+    --sky-blue: #5AB9EA;
+    --silver: #C1C8E4;
+    --blueberry: #8860D0;
+    --white: #fff;
+    --black: #111;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    color: var(--black);
+    background-image: linear-gradient(45deg, var(--blueberry), var(--sky-blue) );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-bottom: 5%;
+    color: var(--light-blue);
+    text-shadow: 0px 0px 0.5rem var(--black);
+}
+
+main {
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    height: 2rem;
+    background-color: rgba(0, 0, 0, 0.025);
+    border-radius: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.input:focus-within {
+    border: 0.15rem solid var(--sky-blue);
+}
+
+.input input {
+    text-align: right;
+    border: none;
+    outline: none;
+    width: 50%;
+    color: var(--dark-blue);
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.25rem;
+}
+
+.input input::placeholder {
+    opacity: 0.75;
+    color: rgba(0, 0, 255, 0.25);
+}
+
+.input i {
+    color: rgba(0, 0, 255, 0.25);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 20%;
+    grid-column-gap: 2.5%;
+    margin-bottom: 1.5rem;
+}
+
+.buttons button {
+    padding: 0.5rem;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: var(--black);
+}
+
+.buttons input {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.025);
+    border: none;
+    outline: none;
+    color: var(--dark-blue);
+    border-radius: 0.25rem;
+}
+
+.buttons input::placeholder {
+    color: var(--dark-blue);
+    letter-spacing: 0.1rem;
+}
+
+.buttons input:focus {
+    border: 0.15rem solid var(--sky-blue);
+}
+
+
+.in, .out {
+    padding: 1rem;
+    width: 50%;
+    border-radius: 0.5rem;
+}
+
+.out {
+    padding: 2rem;
+    background-color: var(--dark-blue);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:  10%;
+}
+
+#total-result, #tip-result {
+    color: var(--sky-blue);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#calc {
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--sky-blue);
+    border: none;
+    border-radius: 0.25rem;
+    letter-spacing: 0.25rem;
+}
+
+#calc:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+}
+
+.active {
+    background-color: var(--light-blue) !important;
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+.text p {
+    color: var(--white);
+}
+
+.text span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        height: fit-content;
+        font-size: 14px;
+    }
+    
+    header {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .container {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .in, .out {
+        width: 100%;
+    }
+}

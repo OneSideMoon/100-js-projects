@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e23dd590a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Tip Calculator & Splitter</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="in">
+                <p>Bill</p>
+                <div class="input">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <input type="text" name="bill" id="bill" placeholder="0" required>
+                </div>
+                <p>Select Tip %</p>
+                <div class="buttons">
+                    <button class="btn" id="5">5%</button>
+                    <button class="btn" id="10">10%</button>
+                    <button class="btn" id="15">15%</button>
+                    <button class="btn" id="25">25%</button>
+                    <button class="btn" id="50">50%</button>
+                    <input type="text" name="percentage" id="custom" placeholder="Custom">
+                </div>
+                <p>Number of People</p>
+                <div class="input">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="people" id="people" placeholder="0" required>
+                </div>
+            </div>
+            <div class="out">
+                <div class="row">
+                    <div class="text">
+                        <p>Tip Amount</p>
+                        <span>/ person</span>
+                    </div>
+                    <span id="tip-result">$ 0.00</span>
+                </div>
+                <div class="row">
+                    <div class="text">
+                        <p>Total</p>
+                        <span>/ person</span>
+                    </div>
+                    <span id="total-result">$ 0.00</span>
+                </div>    
+                <button id="calc">CALCULATE</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
