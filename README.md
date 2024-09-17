@@ -23,6 +23,16 @@ Welcome to the **100 JavaScript Projects** repository! This repository is a coll
     - **Technologies Used:** HTML, CSS, JS
     - **Preview:** You can view the demo video [here](https://drive.google.com/file/d/1d0oPEbIReuW9dLzs6O-lHDPA2LRyKzlF/view?usp=drive_link).
 
+- **[Project 2: Number Guessing Game](https://github.com/OneSideMoon/100-js-projects/tree/main/guess-number)**
+    <br><br>
+    <div align="center">
+        <img src="./preview/guess-number.png" style="width: 50%; border-radius: 15px;" alt="Number Guessing Game">
+    </div>  
+    
+    - **Description:** Guess a number between 1 and 20. Enter your guess, click "Check!" to see if you’re correct, and track your score. Restart the game anytime with the "Play Again" button. [Source](https://www.geeksforgeeks.org/number-guessing-game-using-javascript/).
+    - **Technologies Used:** HTML, CSS, JS
+    - **Preview:** You can view the demo video [here](https://drive.google.com/file/d/1Ky1enl7chq69lQHHNvRX75BMhJScXpnE/view?usp=sharing).
+
 
 ## Contributing
 
