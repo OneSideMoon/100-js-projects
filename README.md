@@ -9,7 +9,7 @@ Welcome to the **100 JavaScript Projects** repository! This repository is a coll
 - There's no time limit on how long an individual exercise can take.
 - Perfect is the enemy of good. I will not be afraid of making mistakes.
 - I will ask for help when I need it.
-
+ 
 
 ## Projects
 
